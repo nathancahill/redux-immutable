@@ -4,4 +4,3 @@ export default (function (nextState, reducerName, action) {
     throw new Error('Reducer "' + reducerName + '" returned undefined when handling "' + action.type + '" action. To ignore an action, you must explicitly return the previous state.');
   }
 });
-module.exports = exports['default'];

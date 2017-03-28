@@ -24,4 +24,3 @@ export default (function (state, reducers, action) {
 
   return null;
 });
-module.exports = exports['default'];

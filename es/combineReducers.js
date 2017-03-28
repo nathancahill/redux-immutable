@@ -34,4 +34,3 @@ export default (function (reducers) {
     });
   };
 });
-module.exports = exports['default'];
